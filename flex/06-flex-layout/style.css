@@ -5,8 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
+.header { 
+  display: flex;
+  justify-content: space-between;
+}
 img {
   width: 600px;
 }
@@ -24,4 +30,16 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display:flex;
+  gap: 16px;
+  padding:0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
 }
